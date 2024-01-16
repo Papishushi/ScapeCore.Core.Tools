@@ -15,6 +15,9 @@
  * ReflectiveEnumerator provides methods for obtaining an enumerable of types that are subclasses of a specified type.
  */
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 
 namespace ScapeCore.Core.Batching.Tools

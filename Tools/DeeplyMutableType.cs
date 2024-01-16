@@ -19,7 +19,9 @@
  * types supporting easy conversions.
  */
 
+using System;
 using System.Dynamic;
+using System.Linq;
 using System.Reflection;
 
 namespace ScapeCore.Core.Batching.Tools
