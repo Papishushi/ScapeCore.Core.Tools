@@ -24,7 +24,7 @@ using System.Dynamic;
 using System.Linq;
 using System.Reflection;
 
-namespace ScapeCore.Core.Batching.Tools
+namespace ScapeCore.Core.Tools
 {
     public class DeeplyMutableType : DynamicObject
     {
