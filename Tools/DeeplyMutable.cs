@@ -18,7 +18,7 @@
 
 using System.Reflection;
 
-namespace ScapeCore.Core.Batching.Tools
+namespace ScapeCore.Core.Tools
 {
     public sealed class DeeplyMutable<T> : DeeplyMutableType
     {

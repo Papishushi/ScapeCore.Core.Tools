@@ -20,7 +20,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace ScapeCore.Core.Batching.Tools
+namespace ScapeCore.Core.Tools
 {
     public static class ReflectiveEnumerator
     {
