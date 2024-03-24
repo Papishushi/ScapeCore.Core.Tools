@@ -10,5 +10,6 @@ namespace ScapeCore.Core.Tools
     {
         protected List<IScapeCoreService?> Services { get; }
         public bool InjectDependencies(params IScapeCoreService[] services);
+        public bool ExtractDependencies(params IScapeCoreService[] services);
     }
 }
