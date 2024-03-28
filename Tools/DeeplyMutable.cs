@@ -25,7 +25,7 @@ namespace ScapeCore.Core.Tools
         public new T? Value { get => _value; set => _value = value; }
         public DeeplyMutable() : base() { }
         public DeeplyMutable(T? value) : base(value) { }
-        public DeeplyMutable(DeeplyMutableType deeplyMutableType) => _value = deeplyMutableType.Value;
+        public DeeplyMutable(DeeplyMutableType? deeplyMutableType) => _value = deeplyMutableType.Value;
 
         protected override FieldInfo[]? DynamicFields => typeof(T).GetFields();
     }

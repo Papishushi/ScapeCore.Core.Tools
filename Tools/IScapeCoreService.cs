@@ -1,4 +1,10 @@
-﻿namespace ScapeCore.Core.Tools
+﻿using System;
+
+namespace ScapeCore.Core.Tools
 {
-    public interface IScapeCoreService { }
+    public interface IScapeCoreService 
+    { 
+        public string Name { get; }
+        public Guid Id { get; }
+    }
 }
